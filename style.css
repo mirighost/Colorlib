@@ -1,0 +1,62 @@
+@import url("theme.css");
+body {
+  background-color: #F2F2F2;
+}
+
+.main-navbar {
+  background-color: #363636;
+}
+
+.main-navbar .navbar-brand {
+  font-family: 'Jomolhari', serif;
+  color: #F5F7FA;
+}
+
+.main-navbar .navbar-toggler {
+  border-color: #ddd;
+}
+
+.main-navbar .nav-link {
+  font-size: 0.8rem;
+  color: #F5F7FA;
+  text-indent: 12px;
+}
+
+.main-navbar .nav-link:hover {
+  color: #DA4453;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.main-navbar .dropdown-item {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.main-navbar .dropdown-item:hover {
+  color: #DA4453;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.main-navbar .dropdown-divide {
+  border: 10px solid #F2F2F2;
+}
+
+.download-main {
+  background-color: white;
+}
+
+.download-main .download-section {
+  font-size: 1.3rem;
+  color: red;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: white;
+}
+
+.download-main .download-section .download-p {
+  padding-left: 3%;
+  padding-top: 1%;
+}
+/*# sourceMappingURL=style.css.map */
