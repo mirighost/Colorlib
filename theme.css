@@ -1,1 +1,7 @@
-/* No CSS *//*# sourceMappingURL=theme.css.map */
+.topic-name {
+  color: #636467;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+/*# sourceMappingURL=theme.css.map */
