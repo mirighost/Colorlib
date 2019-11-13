@@ -1,9 +1,11 @@
 @import url('theme.css');
 
+// body
 body {
     background-color: #F2F2F2;
 }
 
+// Navbar
 .main-navbar {
     background-color: #363636;
 
@@ -42,6 +44,7 @@ body {
     }
 }
 
+// Download Section
 .download-main {
     background-color: white;
 
@@ -55,6 +58,102 @@ body {
         .download-p {
             padding-left: 3%;
             padding-top: 1%;
+        }
+    }
+}
+
+// First-col
+.first-col {
+    margin-top: 3%;
+
+    .first-img {
+        width: 100%;
+    }
+
+    .first-img:hover {
+        opacity: 0.8;
+        transition: 0.5s;
+    }
+
+    .first {
+        background-color: white;
+        margin-bottom: 7%;
+
+        .components {
+            padding-left: 6%;
+            padding-right: 8%;
+            color: #6B6B6B;
+
+            .main-p {
+                padding-top: 3%;
+                font-weight: bold;
+                font-size: 180%;
+                font-family: 'Nunito', sans-serif;
+                line-height: 2rem;
+
+                .main-a {
+                    color: rgb(82, 81, 81);
+                    text-decoration: none;
+                }
+
+                .main-a:hover {
+                    color: #dc3545;
+                    transition: 0.5s;
+                }
+            }
+
+            .lorem {
+                font-family: 'Jomolhari', serif;
+            }
+
+            .data {
+                display: flex;
+                flex-direction: row;
+                font-family: 'Jomolhari', serif;
+                font-size: 14px;
+                text-indent: 4.65px;
+            }
+
+            .ad-component {
+                font-size: 14px;
+            }
+        }
+
+        .button {
+            margin-right: 1px;
+            margin-top: 10px;
+        }
+
+    }
+}
+
+// Second-col
+.second-col{
+    margin-top: 3%;
+    padding: 30px;
+    border: 1px solid #DADADA;
+    background-color: white;
+    .icons{
+        
+        .sub-icons{
+            color: #C1C0C0;
+            font-size: 45px;
+            padding-right: 5px;;
+        }
+        #twitter:hover{
+            color: #58bcf7;
+        }
+        #facebook:hover{
+            color: #135c97;
+        }
+        #youtube:hover{
+            color: #eb2525;
+        }
+        #google-plus:hover{
+            color: #f10909;
+        }
+        #github:hover{
+            color: #337ab7;
         }
     }
 }
