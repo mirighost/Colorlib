@@ -1,0 +1,84 @@
+// First-col
+.first-col {
+    height: 100%;
+    margin-top: 3%;
+
+    .first-img {
+        width: 100%;
+    }
+
+    .first-img:hover {
+        opacity: 0.8;
+        transition: 0.5s;
+    }
+
+    .first {
+        background-color: white;
+        margin-bottom: 7%;
+
+        .components {
+            padding-left: 6%;
+            padding-right: 8%;
+            color: #6b6b6b;
+
+            .main-p {
+                padding-top: 3%;
+                font-weight: bold;
+                font-size: 180%;
+                font-family: "Nunito", sans-serif;
+                line-height: 2rem;
+
+                .main-a {
+                    color: rgb(82, 81, 81);
+                    text-decoration: none;
+                }
+
+                .main-a:hover {
+                    color: #dc3545;
+                    transition: 0.5s;
+                }
+            }
+
+            .lorem {
+                font-family: "Jomolhari", serif;
+            }
+
+            .data {
+                display: flex;
+                flex-direction: row;
+                font-family: "Jomolhari", serif;
+                font-size: 14px;
+                text-indent: 4.65px;
+            }
+
+            .ad-component {
+                font-size: 14px;
+            }
+        }
+
+        .button {
+            width: 25%;
+            margin-left: 70%;
+            margin-right: 2%;
+            margin-top: 18px;
+            margin-bottom: 40px;
+        }
+    }
+
+    #content-button {
+        height: 35px;
+        border-color: transparent;
+        outline: 0px;
+        width: 100%;
+        color: white;
+        background-color: #333;
+        margin-bottom: 8%;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 15px;
+    }
+
+    #content-button:hover {
+        transition: 0.5s;
+        background-color: #DA4453;
+    }
+}

@@ -1,0 +1,43 @@
+// Navbar
+.main-navbar {
+    background-color: #363636;
+  
+    .navbar-toggler {
+      outline: 0px;
+      color: white;
+    }
+  
+    .navbar-brand {
+      font-family: "Jomolhari", serif;
+      color: #f5f7fa;
+    }
+  
+    .navbar-toggler {
+      border-color: #ddd;
+    }
+  
+    .nav-link {
+      font-size: 0.8rem;
+      color: #f5f7fa;
+      text-indent: 12px;
+    }
+  
+    .nav-link:hover {
+      color: #da4453;
+      transition: 0.3s;
+    }
+  
+    .dropdown-item {
+      font-size: 13px;
+      margin-top: 10px;
+    }
+  
+    .dropdown-item:hover {
+      color: #da4453;
+      transition: 0.3s;
+    }
+  
+    .dropdown-divide {
+      border: 10px solid #f2f2f2;
+    }
+  }

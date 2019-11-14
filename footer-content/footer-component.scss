@@ -1,0 +1,54 @@
+// Footer first section
+#footer-main-posts {
+    background-color: rgb(66, 65, 65);
+    height: 100%;
+    padding-bottom: 20px;
+
+    // Footer Posts
+    .footer-postes {
+        padding-top: 35px;
+
+        #posts {
+            .topic-name2 {
+                color: #999;
+            }
+
+            .content-link2 {
+                color: #DADADA;
+            }
+
+            .content-link2:hover {
+                color: white;
+            }
+        }
+    }
+
+    // Colorlib (support)
+    .support {
+        height: 100%;
+        width: 100%;
+        color: #999;
+
+        #support-image {
+            width: 80%;
+            margin-bottom: 20px;
+        }
+
+        .footer-content {
+            font-size: 15px;
+            width: 100%;
+            line-height: 1.7;
+
+            .support-link {
+                color: #DADADA;
+            }
+
+            .support-link:hover {
+                color: white;
+                transition: 0.5s;
+                text-decoration: none;
+            }
+        }
+
+    }
+}
