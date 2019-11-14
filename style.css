@@ -7,6 +7,11 @@ body {
   background-color: #363636;
 }
 
+.main-navbar .navbar-toggler {
+  outline: 0px;
+  color: white;
+}
+
 .main-navbar .navbar-brand {
   font-family: 'Jomolhari', serif;
   color: #F5F7FA;
@@ -126,8 +131,11 @@ body {
 }
 
 .first-col .first .button {
-  margin-right: 1px;
-  margin-top: 10px;
+  width: 25%;
+  margin-left: 70%;
+  margin-right: 2%;
+  margin-top: 18px;
+  margin-bottom: 40px;
 }
 
 .second-col {
@@ -273,12 +281,12 @@ body {
 .second-col #search .input-search {
   border-radius: 1px;
   padding-left: 3px;
-  width: 87%;
+  width: 80%;
 }
 
 .second-col #search .search-button {
   border-radius: 4px;
-  width: 33px;
+  width: 15%;
   height: 37px;
   border: transparent;
   color: white;
@@ -355,5 +363,12 @@ body {
   transition: 0.3s;
   background-color: #dc3545;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 575px) {
+  .download-p,
+  .download-button {
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */
