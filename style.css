@@ -383,5 +383,12 @@ body {
     margin-left: 2.8%;
     margin-right: 2.8%;
   }
+  #footer #main-footer #footer-list .footer-menu {
+    padding-right: 5px;
+    font-size: 9px;
+  }
+  #footer #main-footer #rights {
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */

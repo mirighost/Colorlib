@@ -346,7 +346,6 @@ body {
         padding-right: 10px;
         color: #DADADA;
         font-size: 12px;
-
       }
 
       .footer-menu:hover {
@@ -388,4 +387,19 @@ body {
     margin-left: 2.8%;
     margin-right: 2.8%;
   }
+
+  #footer {
+    #main-footer {
+      #footer-list {
+        .footer-menu {
+          padding-right: 5px;
+          font-size: 9px;
+        }
+      }
+      #rights{
+        text-align: center;
+      }
+    }
+  }
+
 }
