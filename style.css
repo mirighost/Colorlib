@@ -1,6 +1,6 @@
 @import url("theme.css");
 body {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 .main-navbar {
@@ -13,8 +13,8 @@ body {
 }
 
 .main-navbar .navbar-brand {
-  font-family: 'Jomolhari', serif;
-  color: #F5F7FA;
+  font-family: "Jomolhari", serif;
+  color: #f5f7fa;
 }
 
 .main-navbar .navbar-toggler {
@@ -23,12 +23,12 @@ body {
 
 .main-navbar .nav-link {
   font-size: 0.8rem;
-  color: #F5F7FA;
+  color: #f5f7fa;
   text-indent: 12px;
 }
 
 .main-navbar .nav-link:hover {
-  color: #DA4453;
+  color: #da4453;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -39,13 +39,13 @@ body {
 }
 
 .main-navbar .dropdown-item:hover {
-  color: #DA4453;
+  color: #da4453;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
 .main-navbar .dropdown-divide {
-  border: 10px solid #F2F2F2;
+  border: 10px solid #f2f2f2;
 }
 
 .download-main {
@@ -66,6 +66,7 @@ body {
 }
 
 .first-col {
+  height: 100%;
   margin-top: 3%;
 }
 
@@ -87,14 +88,14 @@ body {
 .first-col .first .components {
   padding-left: 6%;
   padding-right: 8%;
-  color: #6B6B6B;
+  color: #6b6b6b;
 }
 
 .first-col .first .components .main-p {
   padding-top: 3%;
   font-weight: bold;
   font-size: 180%;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   line-height: 2rem;
 }
 
@@ -110,7 +111,7 @@ body {
 }
 
 .first-col .first .components .lorem {
-  font-family: 'Jomolhari', serif;
+  font-family: "Jomolhari", serif;
 }
 
 .first-col .first .components .data {
@@ -121,7 +122,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  font-family: 'Jomolhari', serif;
+  font-family: "Jomolhari", serif;
   font-size: 14px;
   text-indent: 4.65px;
 }
@@ -138,136 +139,31 @@ body {
   margin-bottom: 40px;
 }
 
+.first-col #content-button {
+  height: 35px;
+  border-color: transparent;
+  outline: 0px;
+  width: 100%;
+  color: white;
+  background-color: #333;
+  margin-bottom: 8%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}
+
+.first-col #content-button:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #DA4453;
+}
+
 .second-col {
   margin-top: 3%;
   padding: 30px;
-  border: 1px solid #DADADA;
+  border: 1px solid #dadada;
   background-color: white;
   height: 100%;
-}
-
-.second-col #icons {
-  margin-top: -2%;
-  margin-bottom: 45px;
-}
-
-.second-col #icons .sub-icons {
-  color: #C1C0C0;
-  font-size: 45px;
-  padding-right: 5px;
-}
-
-.second-col #icons #twitter:hover {
-  color: #58bcf7;
-  -webkit-transition: 0.7s;
-  transition: 0.7s;
-}
-
-.second-col #icons #facebook:hover {
-  color: #135c97;
-  -webkit-transition: 0.7s;
-  transition: 0.7s;
-}
-
-.second-col #icons #youtube:hover {
-  color: #eb2525;
-  -webkit-transition: 0.7s;
-  transition: 0.7s;
-}
-
-.second-col #icons #google-plus:hover {
-  color: #f10909;
-  -webkit-transition: 0.7s;
-  transition: 0.7s;
-}
-
-.second-col #icons #github:hover {
-  color: #337ab7;
-  -webkit-transition: 0.7s;
-  transition: 0.7s;
-}
-
-.second-col #posts .sub-posts {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  margin-bottom: 20px;
-}
-
-.second-col #posts .sub-posts .link-photos .posts-photo {
-  border-radius: 4px;
-}
-
-.second-col #posts .sub-posts .link-photos:hover {
-  opacity: 0.8;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.second-col #posts .sub-posts .sub-posts-content {
-  margin-left: 23px;
-  padding-right: 5px;
-}
-
-.second-col #posts .sub-posts .sub-posts-content .content-link {
-  font-family: 'Open Sans', sans-serif;
-  display: block;
-  font-size: 15px;
-  margin-bottom: -4px;
-  color: #dc3545;
-}
-
-.second-col #posts .sub-posts .sub-posts-content .content-link:hover {
-  color: grey;
-  text-decoration: none;
-  -webkit-transition: 0.8s;
-  transition: 0.8s;
-}
-
-.second-col #posts .sub-posts .sub-posts-content .post-data {
-  color: #aca9a9;
-  font-size: 12px;
-}
-
-.second-col #categories {
-  margin-bottom: 60px;
-}
-
-.second-col #categories .categories-contents {
-  font-size: 13px;
-  font-family: 'Open Sans', sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  color: #C1C0C0;
-}
-
-.second-col #categories .categories-contents .categorie-link {
-  color: #C1C0C0;
-}
-
-.second-col #categories .categories-contents .categorie-link:hover {
-  color: #dc3545;
-  text-decoration: none;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.second-col #categories .categorie-line {
-  color: #C1C0C0;
-  margin-top: 5px;
-  border-top: dotted 1px;
+  width: 100%;
 }
 
 .second-col #search {
@@ -300,8 +196,8 @@ body {
 }
 
 .second-col #comments {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: #C1C0C0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #c1c0c0;
   font-size: 14px;
   padding-right: 25px;
   margin-bottom: 40px;
@@ -313,7 +209,7 @@ body {
 
 .second-col #comments .comments-link {
   padding-right: 85px;
-  color: #C1C0C0;
+  color: #c1c0c0;
 }
 
 .second-col #comments .comments-link:hover {
@@ -324,7 +220,7 @@ body {
 }
 
 .second-col #comments .comment-line {
-  color: #C1C0C0;
+  color: #c1c0c0;
   margin-top: 10px;
   margin-bottom: 10px;
   border-top: dotted 1px;
@@ -351,8 +247,8 @@ body {
 .second-col #tags-topic .tags {
   border-radius: 3px;
   font-size: 12px !important;
-  color: #FFF !important;
-  background-color: #DADADA;
+  color: #fff !important;
+  background-color: #dadada;
   display: inline-block;
   font-size: 12px;
   padding: 3px 7px;
@@ -365,10 +261,127 @@ body {
   text-decoration: none;
 }
 
+#footer-main-posts {
+  background-color: #424141;
+  height: 100%;
+  padding-bottom: 20px;
+}
+
+#footer-main-posts .footer-postes {
+  padding-top: 35px;
+}
+
+#footer-main-posts .footer-postes #posts .topic-name2 {
+  color: #999;
+}
+
+#footer-main-posts .footer-postes #posts .content-link2 {
+  color: #DADADA;
+}
+
+#footer-main-posts .footer-postes #posts .content-link2:hover {
+  color: white;
+}
+
+#footer-main-posts .support {
+  height: 100%;
+  width: 100%;
+  color: #999;
+}
+
+#footer-main-posts .support #support-image {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+#footer-main-posts .support .footer-content {
+  font-size: 15px;
+  width: 100%;
+  line-height: 1.7;
+}
+
+#footer-main-posts .support .footer-content .support-link {
+  color: #DADADA;
+}
+
+#footer-main-posts .support .footer-content .support-link:hover {
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+#footer {
+  width: 100%;
+  height: 100%;
+  background-color: #202020;
+}
+
+#footer .footer-icons {
+  margin-top: 0%;
+}
+
+#footer .footer-icons .icons-footer {
+  color: #363636;
+}
+
+#footer #main-footer {
+  width: 100%;
+}
+
+#footer #main-footer #footer-list {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style-type: none;
+}
+
+#footer #main-footer #footer-list .footer-menu {
+  padding-right: 10px;
+  color: #DADADA;
+  font-size: 12px;
+}
+
+#footer #main-footer #footer-list .footer-menu:hover {
+  text-decoration: none;
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#footer #main-footer #rights {
+  width: 100%;
+  font-size: 12px;
+  color: #999;
+}
+
+#footer #main-footer #rights .rights-links {
+  color: #DADADA;
+}
+
+#footer #main-footer #rights .rights-links:hover {
+  color: white;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
 @media only screen and (max-width: 575px) {
   .download-p,
   .download-button {
     text-align: center;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .second-col {
+    margin-left: 2.8%;
+    margin-right: 2.8%;
   }
 }
 /*# sourceMappingURL=style.css.map */

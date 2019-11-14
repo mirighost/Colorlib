@@ -4,3 +4,127 @@
     font-weight: bold;
     font-size: 1.1rem;
 }
+
+// Posts
+#posts {
+    height: 100%;
+    width: 100%;
+    .sub-posts {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+
+        .link-photos {
+            .posts-photo {
+                border-radius: 4px;
+            }
+        }
+
+        .link-photos:hover {
+            opacity: 0.8;
+            transition: 0.5s;
+        }
+
+        .sub-posts-content {
+            margin-left: 23px;
+            padding-right: 5px;
+
+            .content-link {
+                font-family: "Open Sans", sans-serif;
+                display: block;
+                font-size: 15px;
+                margin-bottom: -4px;
+                color: #dc3545;
+            }
+
+            .content-link:hover {
+                color: grey;
+                text-decoration: none;
+                transition: 0.8s;
+            }
+
+            .post-data {
+                color: rgb(172, 169, 169);
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+// Categories 1
+#categories {
+    margin-bottom: 60px;
+    height: 100%;
+    width: 100%;
+    .categories-contents {
+        font-size: 13px;
+        font-family: "Open Sans", sans-serif;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: #c1c0c0;
+
+        .categorie-link {
+            color: #c1c0c0;
+        }
+
+        .categorie-link:hover {
+            color: #dc3545;
+            text-decoration: none;
+            transition: 0.5s;
+        }
+
+        .categorie-link2 {
+            color: #DADADA;
+        }
+
+        .categorie-link2:hover {
+            transition: 0.5s;
+            color: white;
+        }
+    }
+
+    .categorie-line {
+        color: #c1c0c0;
+        margin-top: 5px;
+        border-top: dotted 1px;
+    }
+}
+
+// Icons
+#icons {
+    margin-top: -2%;
+    margin-bottom: 45px;
+
+    .sub-icons {
+      color: #c1c0c0;
+      font-size: 45px;
+      padding-right: 5px;
+    }
+    
+
+    #twitter:hover {
+      color: #58bcf7;
+      transition: 0.7s;
+    }
+
+    #facebook:hover {
+      color: #135c97;
+      transition: 0.7s;
+    }
+
+    #youtube:hover {
+      color: #eb2525;
+      transition: 0.7s;
+    }
+
+    #google-plus:hover {
+      color: #f10909;
+      transition: 0.7s;
+    }
+
+    #github:hover {
+      color: #337ab7;
+      transition: 0.7s;
+    }
+  }
