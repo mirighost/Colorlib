@@ -14,32 +14,9 @@ body {
 
 // Media
 @media only screen and (max-width: 575px) {
-
   .download-p,
   .download-button {
     text-align: center;
   }
 }
 
-@media only screen and (max-width: 991px) {
-  .second-col {
-    margin-left: 2.8%;
-    margin-right: 2.8%;
-  }
-
-  #footer {
-    #main-footer {
-      #footer-list {
-        .footer-menu {
-          padding-right: 5px;
-          font-size: 10px;
-          text-align: center;
-        }
-      }
-
-      #rights {
-        text-align: center;
-      }
-    }
-  }
-}

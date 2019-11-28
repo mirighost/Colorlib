@@ -1,5 +1,6 @@
 // Second-col
 .second-col {
+    margin-bottom: 25px;
     margin-top: 3%;
     padding: 30px;
     border: 1px solid #dadada;
@@ -102,5 +103,12 @@
             background-color: #dc3545;
             text-decoration: none;
         }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .second-col {
+        margin-left: 2.8%;
+        margin-right: 2.8%;
     }
 }
