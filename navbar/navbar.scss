@@ -1,8 +1,9 @@
 // Navbar
 #main-navbar {
-  // position: fixed;
+  position: sticky;
   width: 100%;
-  // z-index: 16;
+  top: 0;
+  z-index: 16;
   background-color: #363636;
 
   .navbar-toggler {
