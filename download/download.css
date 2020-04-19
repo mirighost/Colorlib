@@ -1,17 +1,17 @@
 .download-main {
-  background-color: white;
+    background-color: white;
 }
 
 .download-main .download-section {
-  font-size: 1.3rem;
-  color: red;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  background-color: white;
+    font-size: 1.3rem;
+    color: red;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: white;
 }
 
 .download-main .download-section .download-p {
-  padding-left: 3%;
-  padding-top: 1%;
+    padding-left: 3%;
+    padding-top: 1%;
 }
 /*# sourceMappingURL=download.css.map */

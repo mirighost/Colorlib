@@ -1,92 +1,92 @@
 .first-col {
-  height: 100%;
-  margin-top: 3%;
+    height: 100%;
+    margin-top: 3%;
 }
 
 .first-col .first-img {
-  width: 100%;
+    width: 100%;
 }
 
 .first-col .first-img:hover {
-  opacity: 0.8;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+    opacity: 0.8;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
 }
 
 .first-col .first {
-  background-color: white;
-  margin-bottom: 7%;
+    background-color: white;
+    margin-bottom: 7%;
 }
 
 .first-col .first .components {
-  padding-left: 6%;
-  padding-right: 8%;
-  color: #6b6b6b;
+    padding-left: 6%;
+    padding-right: 8%;
+    color: #6b6b6b;
 }
 
 .first-col .first .components .main-p {
-  padding-top: 3%;
-  font-weight: bold;
-  font-size: 180%;
-  font-family: "Nunito", sans-serif;
-  line-height: 2rem;
+    padding-top: 3%;
+    font-weight: bold;
+    font-size: 180%;
+    font-family: 'Nunito', sans-serif;
+    line-height: 2rem;
 }
 
 .first-col .first .components .main-p .main-a {
-  color: #525151;
-  text-decoration: none;
+    color: #525151;
+    text-decoration: none;
 }
 
 .first-col .first .components .main-p .main-a:hover {
-  color: #dc3545;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+    color: #dc3545;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
 }
 
 .first-col .first .components .lorem {
-  font-family: "Jomolhari", serif;
+    font-family: 'Jomolhari', serif;
 }
 
 .first-col .first .components .data {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  font-family: "Jomolhari", serif;
-  font-size: 14px;
-  text-indent: 4.65px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    font-family: 'Jomolhari', serif;
+    font-size: 14px;
+    text-indent: 4.65px;
 }
 
 .first-col .first .components .ad-component {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 .first-col .first .button {
-  width: 25%;
-  margin-left: 70%;
-  margin-right: 2%;
-  margin-top: 18px;
-  margin-bottom: 40px;
+    width: 25%;
+    margin-left: 70%;
+    margin-right: 2%;
+    margin-top: 18px;
+    margin-bottom: 40px;
 }
 
 .first-col #content-button {
-  height: 35px;
-  border-color: transparent;
-  outline: 0px;
-  width: 100%;
-  color: white;
-  background-color: #333;
-  margin-bottom: 8%;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 15px;
+    height: 35px;
+    border-color: transparent;
+    outline: 0px;
+    width: 100%;
+    color: white;
+    background-color: #333;
+    margin-bottom: 8%;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 15px;
 }
 
 .first-col #content-button:hover {
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  background-color: #DA4453;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    background-color: #da4453;
 }
 /*# sourceMappingURL=first-side.css.map */

@@ -1,19 +1,19 @@
-@import url("navbar/navbar.css");
-@import url("download/download.css");
-@import url("first-side.css");
-@import url("component-first-side/first-side.css");
-@import url("component-second-side/second-side.css");
-@import url("footer-content/footer-component.css");
-@import url("footer/footer.css");
-@import url("theme.css");
+@import url('navbar/navbar.css');
+@import url('download/download.css');
+@import url('first-side.css');
+@import url('component-first-side/first-side.css');
+@import url('component-second-side/second-side.css');
+@import url('footer-content/footer-component.css');
+@import url('footer/footer.css');
+@import url('theme.css');
 body {
-  background-color: #f2f2f2;
+    background-color: #f2f2f2;
 }
 
 @media only screen and (max-width: 575px) {
-  .download-p,
-  .download-button {
-    text-align: center;
-  }
+    .download-p,
+    .download-button {
+        text-align: center;
+    }
 }
 /*# sourceMappingURL=style.css.map */

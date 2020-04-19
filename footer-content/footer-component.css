@@ -1,50 +1,50 @@
 #footer-main-posts {
-  background-color: #424141;
-  height: 100%;
-  padding-bottom: 20px;
+    background-color: #424141;
+    height: 100%;
+    padding-bottom: 20px;
 }
 
 #footer-main-posts .footer-postes {
-  padding-top: 35px;
+    padding-top: 35px;
 }
 
 #footer-main-posts .footer-postes #posts .topic-name2 {
-  color: #999;
+    color: #999;
 }
 
 #footer-main-posts .footer-postes #posts .content-link2 {
-  color: #DADADA;
+    color: #dadada;
 }
 
 #footer-main-posts .footer-postes #posts .content-link2:hover {
-  color: white;
+    color: white;
 }
 
 #footer-main-posts .support {
-  height: 100%;
-  width: 100%;
-  color: #999;
+    height: 100%;
+    width: 100%;
+    color: #999;
 }
 
 #footer-main-posts .support #support-image {
-  width: 80%;
-  margin-bottom: 20px;
+    width: 80%;
+    margin-bottom: 20px;
 }
 
 #footer-main-posts .support .footer-content {
-  font-size: 15px;
-  width: 100%;
-  line-height: 1.7;
+    font-size: 15px;
+    width: 100%;
+    line-height: 1.7;
 }
 
 #footer-main-posts .support .footer-content .support-link {
-  color: #DADADA;
+    color: #dadada;
 }
 
 #footer-main-posts .support .footer-content .support-link:hover {
-  color: white;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  text-decoration: none;
+    color: white;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    text-decoration: none;
 }
 /*# sourceMappingURL=footer-component.css.map */

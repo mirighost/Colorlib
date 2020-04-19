@@ -1,148 +1,148 @@
 .topic-name {
-  color: #636467;
-  font-family: "Courier New", Courier, monospace;
-  font-weight: bold;
-  font-size: 1.1rem;
+    color: #636467;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.1rem;
 }
 
 #posts {
-  height: 100%;
-  width: 100%;
+    height: 100%;
+    width: 100%;
 }
 
 #posts .sub-posts {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  margin-bottom: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-bottom: 20px;
 }
 
 #posts .sub-posts .link-photos .posts-photo {
-  border-radius: 4px;
+    border-radius: 4px;
 }
 
 #posts .sub-posts .link-photos:hover {
-  opacity: 0.8;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+    opacity: 0.8;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
 }
 
 #posts .sub-posts .sub-posts-content {
-  margin-left: 23px;
-  padding-right: 5px;
+    margin-left: 23px;
+    padding-right: 5px;
 }
 
 #posts .sub-posts .sub-posts-content .content-link {
-  font-family: "Open Sans", sans-serif;
-  display: block;
-  font-size: 15px;
-  margin-bottom: -4px;
-  color: #dc3545;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    font-size: 15px;
+    margin-bottom: -4px;
+    color: #dc3545;
 }
 
 #posts .sub-posts .sub-posts-content .content-link:hover {
-  color: grey;
-  text-decoration: none;
-  -webkit-transition: 0.8s;
-  transition: 0.8s;
+    color: grey;
+    text-decoration: none;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
 }
 
 #posts .sub-posts .sub-posts-content .post-data {
-  color: #aca9a9;
-  font-size: 12px;
+    color: #aca9a9;
+    font-size: 12px;
 }
 
 #categories {
-  margin-bottom: 60px;
-  height: 100%;
-  width: 100%;
+    margin-bottom: 60px;
+    height: 100%;
+    width: 100%;
 }
 
 #categories .categories-contents {
-  font-size: 13px;
-  font-family: "Open Sans", sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  color: #c1c0c0;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    color: #c1c0c0;
 }
 
 #categories .categories-contents .categorie-link {
-  color: #c1c0c0;
+    color: #c1c0c0;
 }
 
 #categories .categories-contents .categorie-link:hover {
-  color: #dc3545;
-  text-decoration: none;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+    color: #dc3545;
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
 }
 
 #categories .categories-contents .categorie-link2 {
-  color: #dadada;
+    color: #dadada;
 }
 
 #categories .categories-contents .categorie-link2:hover {
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  color: white;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    color: white;
 }
 
 #categories .categorie-line {
-  color: #c1c0c0;
-  margin-top: 5px;
-  border-top: dotted 1px;
+    color: #c1c0c0;
+    margin-top: 5px;
+    border-top: dotted 1px;
 }
 
 #icons {
-  margin-top: -2%;
-  margin-bottom: 45px;
+    margin-top: -2%;
+    margin-bottom: 45px;
 }
 
 #icons .sub-icons {
-  color: #c1c0c0;
-  font-size: 45px;
-  padding-right: 5px;
+    color: #c1c0c0;
+    font-size: 45px;
+    padding-right: 5px;
 }
 
 #icons #twitter:hover {
-  color: #58bcf7;
-  -webkit-transition: 0.7s;
-  transition: 0.7s;
+    color: #58bcf7;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
 }
 
 #icons #facebook:hover {
-  color: #135c97;
-  -webkit-transition: 0.7s;
-  transition: 0.7s;
+    color: #135c97;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
 }
 
 #icons #youtube:hover {
-  color: #eb2525;
-  -webkit-transition: 0.7s;
-  transition: 0.7s;
+    color: #eb2525;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
 }
 
 #icons #google-plus:hover {
-  color: #f10909;
-  -webkit-transition: 0.7s;
-  transition: 0.7s;
+    color: #f10909;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
 }
 
 #icons #github:hover {
-  color: #337ab7;
-  -webkit-transition: 0.7s;
-  transition: 0.7s;
+    color: #337ab7;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
 }
 /*# sourceMappingURL=theme.css.map */
