@@ -1,50 +1,50 @@
 #main-navbar {
-  position: -webkit-sticky;
-  position: sticky;
-  width: 100%;
-  top: 0;
-  z-index: 16;
-  background-color: #363636;
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 16;
+    background-color: #363636;
 }
 
 #main-navbar .navbar-toggler {
-  outline: 0px;
-  color: white;
+    outline: 0px;
+    color: white;
 }
 
 #main-navbar .navbar-brand {
-  font-family: "Jomolhari", serif;
-  color: #f5f7fa;
+    font-family: 'Jomolhari', serif;
+    color: #f5f7fa;
 }
 
 #main-navbar .navbar-toggler {
-  border-color: #ddd;
+    border-color: #ddd;
 }
 
 #main-navbar .nav-link {
-  font-size: 0.8rem;
-  color: #f5f7fa;
-  text-indent: 12px;
+    font-size: 0.8rem;
+    color: #f5f7fa;
+    text-indent: 12px;
 }
 
 #main-navbar .nav-link:hover {
-  color: #da4453;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+    color: #da4453;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
 }
 
 #main-navbar .dropdown-item {
-  font-size: 13px;
-  margin-top: 10px;
+    font-size: 13px;
+    margin-top: 10px;
 }
 
 #main-navbar .dropdown-item:hover {
-  color: #da4453;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+    color: #da4453;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
 }
 
 #main-navbar .dropdown-divide {
-  border: 10px solid #f2f2f2;
+    border: 10px solid #f2f2f2;
 }
 /*# sourceMappingURL=navbar.css.map */
